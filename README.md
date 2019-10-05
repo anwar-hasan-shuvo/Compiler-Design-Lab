@@ -6,3 +6,4 @@
 3. [Write a program to count no. of whitespace, digit, uppercase and lowercase.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_3.java)
 4. [Write a program to detect comment.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_4.java)
 5. [Write a program to concatenate two strings and determine the length of concatenated string.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_5.java)
+7. [Write a program to find ASCII code of a character.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_7.java)
