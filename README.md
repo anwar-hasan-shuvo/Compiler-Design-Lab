@@ -9,4 +9,4 @@
 6. [Write a program to split each word into individual word.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_6.java)
 7. [Write a program to find ASCII code of a character.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_7.java)
 8. [Write a program to take input from a text file and save the sum of number in a new text file.](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_8.java)
-
+9. [Write a program to remove white space from a text file and save in a new text file](https://github.com/shuvo-bhuiyan/Compiler-Design-Lab/blob/master/Task_9.java)
