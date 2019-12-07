@@ -1,6 +1,7 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.Scanner;
 
 public class Task_9 {
 
@@ -9,18 +10,22 @@ public class Task_9 {
         try
         {
             File f = new File("D:\\Input.txt");
-            Scanner scanner = new Scanner(f);
+            FileReader reader = new FileReader(f);
+            BufferedReader buff = new BufferedReader(reader);
 
-            String line = "";
+            StringBuilder sb = new StringBuilder();
 
-            while (scanner.hasNextLine()){
-                 line = scanner.nextLine();
+            while(true) {
+                String inputText = buff.readLine();
+                if(inputText == null)
+                    break;
+                sb.append(inputText);
             }
 
-            line = line.replace(" ", "");
+            String allFile = sb.toString();
 
             FileWriter file = new FileWriter("D:\\Output.txt", true);
-            file.write(line);
+            file.write(allFile.trim().replaceAll("[\\n\\t ]", ""));
             file.close();
         }
         catch(Exception err){
